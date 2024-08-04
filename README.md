@@ -8,5 +8,5 @@
 </p>
 
 <p align="center">
-Repo name came from `zek-debian` which is the name of the machine. `zek` is not a Greek work, it is just my nickname.
+Repo name came from `zek-debian` which is the name of the machine. `zek` is not a Greek word, it is just my nickname.
 </p>
