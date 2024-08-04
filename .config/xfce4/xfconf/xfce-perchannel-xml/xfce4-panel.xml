@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="2"/>
+    <value type="int" value="3"/>
+    <value type="int" value="1"/>
+    <value type="int" value="4"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=2;x=3236;y=22"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="4"/>
+        <value type="int" value="25"/>
+        <value type="int" value="23"/>
+        <value type="int" value="7"/>
+        <value type="int" value="22"/>
+        <value type="int" value="30"/>
+        <value type="int" value="17"/>
+        <value type="int" value="5"/>
+      </property>
+      <property name="length" type="double" value="11.453488372093023"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.0016666666666666592"/>
+        <value type="double" value="0.067238442822384448"/>
+        <value type="double" value="0.083333333333333343"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="false"/>
+    </property>
+    <property name="panel-3" type="empty">
+      <property name="position" type="string" value="p=9;x=1725;y=23"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="length" type="double" value="17.20930232558139"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="3"/>
+        <value type="int" value="11"/>
+        <value type="int" value="13"/>
+        <value type="int" value="12"/>
+        <value type="int" value="24"/>
+        <value type="int" value="14"/>
+        <value type="int" value="37"/>
+        <value type="int" value="39"/>
+        <value type="int" value="42"/>
+        <value type="int" value="43"/>
+        <value type="int" value="1"/>
+        <value type="int" value="45"/>
+        <value type="int" value="44"/>
+        <value type="int" value="9"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.0016666666666666592"/>
+        <value type="double" value="0.067238442822384448"/>
+        <value type="double" value="0.083333333333333343"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="position-locked" type="bool" value="true"/>
+    </property>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=179;y=27"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="18"/>
+        <value type="int" value="15"/>
+        <value type="int" value="6"/>
+        <value type="int" value="10"/>
+        <value type="int" value="8"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.0016666666666666592"/>
+        <value type="double" value="0.067238442822384448"/>
+        <value type="double" value="0.083333333333333343"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length" type="double" value="1.25"/>
+    </property>
+    <property name="panel-4" type="empty">
+      <property name="position" type="string" value="p=11;x=686;y=15"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.0016666666666666592"/>
+        <value type="double" value="0.067238442822384448"/>
+        <value type="double" value="0.083333333333333343"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="length" type="double" value="12.296511627906977"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="26"/>
+        <value type="int" value="20"/>
+        <value type="int" value="21"/>
+        <value type="int" value="27"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-7" type="string" value="clock">
+      <property name="digital-date-format" type="string" value="%a, %d %b %Y"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="digital-layout" type="uint" value="2"/>
+      <property name="digital-date-font" type="string" value="JetBrainsMonoNL Nerd Font Thin 9"/>
+    </property>
+    <property name="plugin-17" type="string" value="actions">
+      <property name="button-title" type="uint" value="3"/>
+      <property name="custom-title" type="string" value="-= boy_deploy =-"/>
+      <property name="appearance" type="uint" value="1"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-23" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-25" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="digital-time-font" type="string" value="JetBrainsMono Nerd Font Mono Thin 9"/>
+    </property>
+    <property name="plugin-30" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-37" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-39" type="string" value="tasklist">
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="2"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-42" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-43" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-44" type="string" value="notification-plugin"/>
+    <property name="plugin-45" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance1332;firefox.instance52289;firefox.instance5773;Gwenview"/>
+    </property>
+    <property name="plugin-1" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (60%)"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (57%)"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (49%)"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (56%)"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (48%)"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (55%)"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (53%)"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (52%)"/>
+        <value type="string" value="upwork"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (51%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (54%)"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Klipper"/>
+        <value type="string" value="Upwork1"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-10" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17220529981.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17220533545.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-13" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17220532014.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-15" type="string" value="applicationsmenu">
+      <property name="button-title" type="string" value=""/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/debian-logo.png"/>
+    </property>
+    <property name="plugin-18" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="cpugraph"/>
+    <property name="plugin-21" type="string" value="systemload">
+      <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-26" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-24" type="string" value="xfce4-dict-plugin"/>
+  </property>
+</channel>
