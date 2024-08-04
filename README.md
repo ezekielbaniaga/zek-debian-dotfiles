@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/ezekielbaniaga/zek-debian-dotfiles/master/logo-256.png" width="256"/>
+  <img src="https://raw.githubusercontent.com/ezekielbaniaga/zek-debian-dotfiles/master/logo-256.png" width="256"/><br/><br/>
   <a href="https://www.debian.org">Debian</a> dotfiles<br/><br/>
   <img src="https://raw.githubusercontent.com/ezekielbaniaga/zek-debian-dotfiles/master/simplicity.png" width="960"/>
 </h3>
