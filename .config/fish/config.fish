@@ -47,3 +47,8 @@ fish_add_path "/opt/nodejs/node-v20.15.1-linux-x64/bin"
 # nginx
 #
 fish_add_path "/opt/nginx/sbin"
+
+#
+# intellij
+#
+fish_add_path "/opt/intellij/idea-IC-241.18034.62/bin"
