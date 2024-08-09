@@ -17,6 +17,9 @@ function fish_prompt
       (set_color cyan) (fish_git_prompt) (set_color normal)
 end
 
+# intro
+unimatrix -s 100 -a -f -w
+
 #
 # alias for dotfiles tracker
 #
@@ -29,26 +32,19 @@ alias ls='exa --icons'
 alias ll='exa -lah --icons'
 
 #
-# Neovim Path
+# Paths for:
+#
+# - Neovim 
+# - Zig
+# - Node JS
+# - nginx
+# - IntelliJ
+# - Oracle JDK 8
 #
 fish_add_path "/opt/nvim"
-
-#
-# Zig Path
-#
 fish_add_path "/opt/zig/zig-linux-x86_64-0.13.0"
-
-#
-# Node JS
-#
 fish_add_path "/opt/nodejs/node-v20.15.1-linux-x64/bin"
-
-#
-# nginx
-#
 fish_add_path "/opt/nginx/sbin"
-
-#
-# intellij
-#
 fish_add_path "/opt/intellij/idea-IC-241.18034.62/bin"
+fish_add_path "/opt/java/oracle-jdk8/jdk1.8.0_202/bin"
+
