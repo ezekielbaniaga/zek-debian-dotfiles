@@ -46,7 +46,6 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="orca"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
@@ -188,6 +187,8 @@
       <property name="&lt;Super&gt;8" type="string" value="workspace_8_key"/>
       <property name="&lt;Super&gt;9" type="string" value="workspace_9_key"/>
       <property name="&lt;Super&gt;0" type="string" value="workspace_10_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Left" type="string" value="prev_workspace_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Right" type="string" value="next_workspace_key"/>
     </property>
   </property>
   <property name="providers" type="array">
