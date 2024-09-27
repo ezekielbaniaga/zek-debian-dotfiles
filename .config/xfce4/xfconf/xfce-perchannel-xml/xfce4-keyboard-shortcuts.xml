@@ -187,8 +187,8 @@
       <property name="&lt;Super&gt;8" type="string" value="workspace_8_key"/>
       <property name="&lt;Super&gt;9" type="string" value="workspace_9_key"/>
       <property name="&lt;Super&gt;0" type="string" value="workspace_10_key"/>
-      <property name="&lt;Primary&gt;&lt;Super&gt;Left" type="string" value="prev_workspace_key"/>
-      <property name="&lt;Primary&gt;&lt;Super&gt;Right" type="string" value="next_workspace_key"/>
+      <property name="F4" type="string" value="prev_workspace_key"/>
+      <property name="F5" type="string" value="next_workspace_key"/>
     </property>
   </property>
   <property name="providers" type="array">

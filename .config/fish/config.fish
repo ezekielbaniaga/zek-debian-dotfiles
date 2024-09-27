@@ -4,14 +4,14 @@ end
 
 function fish_greeting
     echo \n
-	echo ┏━━━━━━━━━━━━━━━━━━━━┓\tDebian GNU/Linux: (set_color cyan; uname -onrm; set_color normal)
-	echo ┃ --= boy_deploy =-- ┃\tFish Shell: (set_color cyan; fish --version; set_color normal)
-	echo ┗━━━━━━━━━━━━━━━━━━━━┛\tDate: (set_color cyan; date; set_color normal)
+	echo ' ' ╭╼╸ ┏━━━━━━━━━━━━━━━━━━━━┓\tDebian GNU/Linux: (set_color cyan; uname -onrm; set_color normal)
+	echo ''╺╾┼╼╸ ┃ --= boy_deploy =-- ┃\tFish Shell: (set_color cyan; fish --version; set_color normal)
+	echo ' ' ╰╼╸ ┗━━━━━━━━━━━━━━━━━━━━┛\tDate: (set_color cyan; date; set_color normal)
     echo \n
 end
 
 function fish_prompt
-    printf '\n╺╾┬╼╸ %s %s@%s %s %s %s %s %s %s%s%s \n  ╰╼╸ ╲$ ' \
+    printf '\n╺╾┬╼╸ %s %s@%s %s %s %s %s %s %s%s%s \n  │\n  ╰╼╸ ❱❯❭ ' \
       (set_color -b cyan)(set_color black) $USER $hostname (set_color normal) \
       (set_color -b brblack)(set_color black) (prompt_pwd) (set_color normal) \
       (set_color cyan) (fish_git_prompt) (set_color normal)
