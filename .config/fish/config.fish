@@ -59,4 +59,4 @@ fish_add_path "/opt/nginx/sbin"
 fish_add_path "/opt/intellij/idea-IC-241.18034.62/bin"
 fish_add_path "/opt/java/oracle-jdk8/jdk1.8.0_202/bin"
 fish_add_path "/opt/maven/3.5.0/apache-maven-3.5.0/bin"
-
+fish_add_path "/opt/cursorai/"
