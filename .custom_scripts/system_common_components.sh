@@ -28,3 +28,12 @@ apt install cmatrix
 curl -L https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -o /usr/local/bin/unimatrix
 chmod a+rx /usr/local/bin/unimatrix
 
+# +-----------------------------------------------------
+# | Enable snap store
+# +-----------------------------------------------------
+apt install snapd
+snap install snapd
+
+# color picker from snap store
+snap install color-picker
+
