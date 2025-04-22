@@ -28,6 +28,9 @@ apt install cmatrix
 curl -L https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -o /usr/local/bin/unimatrix
 chmod a+rx /usr/local/bin/unimatrix
 
+# fav music player
+apt install qmmp
+
 # +-----------------------------------------------------
 # | Enable snap store
 # +-----------------------------------------------------
