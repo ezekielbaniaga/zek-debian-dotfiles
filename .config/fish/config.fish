@@ -14,7 +14,7 @@ function fish_greeting
 end
 
 function fish_prompt
-    printf '\n%s' (set_color brblack)
+    printf '\n%s' (set_color 002225)
     printf %"$COLUMNS"s | tr " " "-"
     printf '\n%s' (set_color normal)
     printf '\n╺╾┬╼╸%s%s %s@%s %s%s%s%s%s%s%s%s%s%s\n  │\n  ╰╼╸\ue285 ' \
@@ -40,6 +40,11 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
 #
 alias ls='exa --icons'
 alias ll='exa -lah --icons'
+
+#
+# alias for elevated nvim
+#
+alias sunvim='sudo -E -s /opt/nvim/nvim'
 
 #
 # Paths for:
