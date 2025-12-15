@@ -54,7 +54,6 @@ alias sunvim='sudo -E -s /opt/nvim/nvim'
 # - Node JS
 # - nginx
 # - IntelliJ
-# - Oracle JDK 8
 # - Maven 3.5.0
 #
 fish_add_path "/opt/nvim"
@@ -62,6 +61,18 @@ fish_add_path "/opt/zig/zig-linux-x86_64-0.13.0"
 fish_add_path "/opt/nodejs/node-v20.15.1-linux-x64/bin"
 fish_add_path "/opt/nginx/sbin"
 fish_add_path "/opt/intellij/idea-IC-241.18034.62/bin"
-fish_add_path "/opt/java/oracle-jdk8/jdk1.8.0_202/bin"
 fish_add_path "/opt/maven/3.5.0/apache-maven-3.5.0/bin"
 fish_add_path "/opt/cursorai/"
+
+#
+# JAVA_HOME
+#
+# - Oracle JDK 8
+# - Open JDK 24
+# 
+# set -gx JAVA_HOME /opt/java/jdk-24.0.1
+set -gx JAVA_HOME /opt/java/oracle-jdk8/jdk1.8.0_202
+set -gx PATH $JAVA_HOME/bin $PATH 
+
+
+# END OF FILE
