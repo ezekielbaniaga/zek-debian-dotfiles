@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IDEA
+Comment=IntelliJ IDEA
+Exec=/opt/intellij/idea-IC-241.18034.62/bin/idea
+Icon=idea
+Path=
+Terminal=false
+StartupNotify=false

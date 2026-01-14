@@ -7,11 +7,16 @@
     <value type="int" value="3"/>
     <value type="int" value="1"/>
     <value type="int" value="4"/>
+    <value type="int" value="5"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=2;x=3236;y=22"/>
+      <property name="position" type="string" value="p=2;x=1683;y=14"/>
       <property name="size" type="uint" value="28"/>
       <property name="plugin-ids" type="array">
+        <value type="int" value="47"/>
+        <value type="int" value="41"/>
+        <value type="int" value="44"/>
+        <value type="int" value="46"/>
         <value type="int" value="4"/>
         <value type="int" value="25"/>
         <value type="int" value="23"/>
@@ -20,6 +25,8 @@
         <value type="int" value="30"/>
         <value type="int" value="17"/>
         <value type="int" value="5"/>
+        <value type="int" value="45"/>
+        <value type="int" value="42"/>
       </property>
       <property name="length" type="double" value="11.453488372093023"/>
       <property name="background-style" type="uint" value="1"/>
@@ -29,30 +36,39 @@
         <value type="double" value="0.083333333333333343"/>
         <value type="double" value="1"/>
       </property>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="length-adjust" type="bool" value="false"/>
+      <property name="position-locked" type="bool" value="false"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
     </property>
     <property name="panel-3" type="empty">
-      <property name="position" type="string" value="p=9;x=1725;y=23"/>
+      <property name="position" type="string" value="p=11;x=676;y=16"/>
       <property name="size" type="uint" value="28"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="length-adjust" type="bool" value="true"/>
-      <property name="length" type="double" value="17.20930232558139"/>
+      <property name="length" type="double" value="1"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="3"/>
-        <value type="int" value="11"/>
-        <value type="int" value="13"/>
-        <value type="int" value="12"/>
-        <value type="int" value="24"/>
-        <value type="int" value="14"/>
+        <value type="int" value="38"/>
+        <value type="int" value="32"/>
+        <value type="int" value="16"/>
+        <value type="int" value="43"/>
+        <value type="int" value="31"/>
         <value type="int" value="37"/>
         <value type="int" value="39"/>
-        <value type="int" value="42"/>
-        <value type="int" value="43"/>
+        <value type="int" value="33"/>
+        <value type="int" value="36"/>
+        <value type="int" value="19"/>
+        <value type="int" value="11"/>
         <value type="int" value="1"/>
-        <value type="int" value="45"/>
-        <value type="int" value="44"/>
+        <value type="int" value="14"/>
         <value type="int" value="9"/>
+        <value type="int" value="13"/>
+        <value type="int" value="34"/>
+        <value type="int" value="24"/>
+        <value type="int" value="28"/>
+        <value type="int" value="29"/>
+        <value type="int" value="12"/>
+        <value type="int" value="35"/>
         <value type="int" value="2"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
@@ -66,7 +82,7 @@
       <property name="position-locked" type="bool" value="true"/>
     </property>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=179;y=27"/>
+      <property name="position" type="string" value="p=6;x=958;y=17"/>
       <property name="size" type="uint" value="28"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="18"/>
@@ -83,10 +99,11 @@
         <value type="double" value="1"/>
       </property>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="length" type="double" value="1.25"/>
+      <property name="length" type="double" value="2.8125"/>
+      <property name="nrows" type="uint" value="1"/>
     </property>
     <property name="panel-4" type="empty">
-      <property name="position" type="string" value="p=11;x=686;y=15"/>
+      <property name="position" type="string" value="p=11;x=2738;y=14"/>
       <property name="size" type="uint" value="28"/>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
@@ -96,14 +113,26 @@
         <value type="double" value="1"/>
       </property>
       <property name="icon-size" type="uint" value="16"/>
-      <property name="length" type="double" value="12.296511627906977"/>
+      <property name="length" type="double" value="1"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="26"/>
         <value type="int" value="20"/>
         <value type="int" value="21"/>
         <value type="int" value="27"/>
       </property>
-      <property name="position-locked" type="bool" value="true"/>
+      <property name="position-locked" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+    <property name="panel-5" type="empty">
+      <property name="position" type="string" value="p=11;x=1767;y=14"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="40"/>
+      </property>
+      <property name="position-locked" type="bool" value="false"/>
+      <property name="length" type="double" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -134,47 +163,6 @@
     <property name="plugin-30" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
-    </property>
-    <property name="plugin-37" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-39" type="string" value="tasklist">
-      <property name="show-labels" type="bool" value="false"/>
-      <property name="sort-order" type="uint" value="2"/>
-      <property name="show-handle" type="bool" value="false"/>
-      <property name="flat-buttons" type="bool" value="true"/>
-    </property>
-    <property name="plugin-42" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-43" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-44" type="string" value="notification-plugin"/>
-    <property name="plugin-45" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1332;firefox.instance52289;firefox.instance5773;Gwenview"/>
-    </property>
-    <property name="plugin-1" type="string" value="systray">
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (60%)"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (57%)"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (49%)"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (56%)"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (48%)"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (55%)"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (53%)"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (52%)"/>
-        <value type="string" value="upwork"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (51%)"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="wi-fi network connection “huawei-36nd 1” active: huawei-36nd (54%)"/>
-      </property>
-      <property name="known-items" type="array">
-        <value type="string" value="Klipper"/>
-        <value type="string" value="Upwork1"/>
-      </property>
     </property>
     <property name="plugin-2" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -216,13 +204,11 @@
       </property>
       <property name="show-label" type="bool" value="false"/>
     </property>
-    <property name="plugin-14" type="string" value="separator">
-      <property name="style" type="uint" value="2"/>
-    </property>
     <property name="plugin-15" type="string" value="applicationsmenu">
       <property name="button-title" type="string" value=""/>
       <property name="show-button-title" type="bool" value="false"/>
       <property name="button-icon" type="string" value="/usr/share/pixmaps/debian-logo.png"/>
+      <property name="custom-menu" type="bool" value="false"/>
     </property>
     <property name="plugin-18" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -231,6 +217,12 @@
     <property name="plugin-20" type="string" value="cpugraph"/>
     <property name="plugin-21" type="string" value="systemload">
       <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
         <property name="enabled" type="bool" value="true"/>
       </property>
     </property>
@@ -242,7 +234,135 @@
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-24" type="string" value="xfce4-dict-plugin"/>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17304358121.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17309805662.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-28" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17449836371.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-29" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17449839682.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-32" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17456299863.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-33" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17461375294.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-34" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17467153305.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-35" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17467165946.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-36" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17474213597.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-31" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17487697511.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-38" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17521156811.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-40" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+    </property>
+    <property name="plugin-1" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17565389841.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17580977882.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17587453701.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-37" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17588827122.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-39" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17597054133.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-41" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (61%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (63%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (62%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (59%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (58%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (57%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (60%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (56%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (66%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (68%)"/>
+        <value type="string" value="wi-fi network connection “coral view” active: coral view (63%)"/>
+        <value type="string" value="wi-fi network connection “coral view” active: coral view (66%)"/>
+        <value type="string" value="requesting a wi-fi network address for “coral view”…"/>
+        <value type="string" value="wi-fi network connection “coral view” active: coral view (56%)"/>
+        <value type="string" value="wi-fi network connection “coral view” active: coral view (53%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (67%)"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="Upwork1"/>
+      </property>
+    </property>
+    <property name="plugin-44" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance10514;chromium.instance105928;chromium.instance10929;chromium.instance11556;chromium.instance139215;chromium.instance16098;chromium.instance3082;chromium.instance3398;chromium.instance341151;chromium.instance3459;chromium.instance3799;chromium.instance4623;chromium.instance6125;chromium.instance6566;dragonplayer;firefox.instance_1_103;firefox.instance_1_159;firefox.instance_1_165;firefox.instance_1_298;firefox.instance_1_36;firefox.instance_1_37;firefox.instance_1_38;firefox.instance_1_39;firefox.instance_1_577;firefox.instance_1_964;kdeconnect.mpris_060529bbe5cd420abbf776d9f1faa907;kdeconnect.mpris_0b0dd4fa57c242ec9d4ba3d4e943e91f;kdeconnect.mpris_0fd5a1ecba8f465c84f27dbfb92d8114;kdeconnect.mpris_17b56ba400484e028242f9ca45a15df1;kdeconnect.mpris_1ffdea4823364cc7aa2c02ede13e514e;kdeconnect.mpris_250d33f3b12940fe9c2477f77bf145f7;kdeconnect.mpris_2f6557f484b74f2a894a568d66efa23a;kdeconnect.mpris_364521dc06464784810167fe8d54f222;kdeconnect.mpris_4247316a6d4d4033bc7e25c7ea639f3e;kdeconnect.mpris_4cd80e4abed04aea955befb3a347e7ba;kdeconnect.mpris_4cf0f466688745cf962f0bcac9fb91bc;kdeconnect.mpris_51495b1bdbe0475cb337b49ba50dd5f2;kdeconnect.mpris_59347396ee8144638e95b34915644f91;kdeconnect.mpris_5d1c2cb3373947309f798fa44b70acfd;kdeconnect.mpris_78371679ea034398868314f429192a22;kdeconnect.mpris_79d88edcda604d4a87339ea3c775bac5;kdeconnect.mpris_83dfc75b64b34e4ebafd42ec785e3397;kdeconnect.mpris_9179c6d4962f4d6f839aa0a430d730ef;kdeconnect.mpris_91da1ddab52645daa9e565ffdb9a61ec;kdeconnect.mpris_ad7db7f4bdc54bf4bc71b25c3aa050bd;kdeconnect.mpris_d9c5b31398c143499efea533d5ee279c;kdeconnect.mpris_e8a031e9708d4c75ba4d995331b0079d;kdeconnect.mpris_f101e118913e4350847eb31cf3fbf881;kdeconnect.mpris_f1f4b46f3e6b4ac98a6d665f1fe154b3;kdeconnect.mpris_f8c5f04caf9243ce9e042f680d35d2cb;kdeconnect.mpris_f926600811cb48fdbf6ab9ec3036ab1c;kdeconnect.mpris_fa4c2364d6da45c8bc53cd14a2ee2223;kdeconnect.mpris_fe8d92d0dc584ca194f859d01025a272;vlc"/>
+    </property>
+    <property name="plugin-45" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-46" type="string" value="notification-plugin"/>
+    <property name="plugin-47" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-42" type="string" value="battery"/>
+    <property name="plugin-43" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17682823681.desktop"/>
+      </property>
+    </property>
   </property>
 </channel>

@@ -50,7 +50,6 @@
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
-      <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
@@ -61,6 +60,7 @@
       <property name="&lt;Super&gt;Return" type="string" value="/usr/bin/xfce4-terminal"/>
       <property name="&lt;Super&gt;n" type="string" value="mousepad %U"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;s" type="string" value="xfce4-screenshooter -r"/>
+      <property name="&lt;Super&gt;e" type="string" value="thunar"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -189,6 +189,7 @@
       <property name="&lt;Super&gt;0" type="string" value="workspace_10_key"/>
       <property name="F4" type="string" value="prev_workspace_key"/>
       <property name="F5" type="string" value="next_workspace_key"/>
+      <property name="F3" type="string" value="switch_application_key"/>
     </property>
   </property>
   <property name="providers" type="array">

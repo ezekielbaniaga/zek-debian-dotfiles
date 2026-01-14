@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Postman
+Comment=Postman API Tester
+Exec=/opt/postman/Postman/Postman
+Icon=xfce4-weather
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Audacity
+Comment=Audacity Audio Editor
+Exec=/opt/audacity/audacity-linux-3.7.5-x64-20.04.AppImage
+Icon=Audacity_Logo
+Path=
+Terminal=false
+StartupNotify=false

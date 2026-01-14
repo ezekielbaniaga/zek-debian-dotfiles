@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MSTeams
+Comment=Micro$oft Team$
+Exec=teams-for-linux
+Icon=teams-for-linux
+Path=
+Terminal=false
+StartupNotify=false

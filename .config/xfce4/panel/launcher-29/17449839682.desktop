@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=KCalc
+Exec=kcalc
+Icon=accessories-calculator
+X-DocPath=kcalc/index.html
+Comment=Calculator which offers many mathematical functions, such as trigonometric functions, logic operations, and statistical calculations
+GenericName=Scientific Calculator
+Type=Application
+StartupNotify=true
+Categories=Qt;KDE;Utility;Calculator;X-KDE-Utilities-Desktop;
+X-DBUS-ServiceName=org.kde.kcalc.desktop
+X-KDE-Shortcuts=Launch (1)
+X-XFCE-Source=file:///usr/share/applications/org.kde.kcalc.desktop

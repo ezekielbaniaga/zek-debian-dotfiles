@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Godot
+Comment=
+Exec=/opt/godot/Godot_v4.5.1-stable_linux.x86_64
+Icon=Godot_icon
+Path=
+Terminal=false
+StartupNotify=false

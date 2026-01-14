@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Color Picker
+Comment=Color Picker from SNAPD
+Exec=/snap/bin/color-picker
+Icon=face-cool
+Path=
+Terminal=false
+StartupNotify=false

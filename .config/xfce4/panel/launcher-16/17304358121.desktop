@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Krita
+Comment=Made for Artist
+Exec=/opt/Krita/krita-5.2.6-x86_64.appimage
+Icon=krita
+Path=/opt/Krita
+Terminal=false
+StartupNotify=false

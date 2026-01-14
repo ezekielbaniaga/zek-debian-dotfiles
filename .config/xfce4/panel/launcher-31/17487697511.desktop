@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Inkscape
+Comment=Inkscape
+Exec=/opt/inkscape/Inkscape-ebf0e94-x86_64.AppImage
+Icon=/usr/share/pixmaps/Inkscape_Logo.svg
+Path=
+Terminal=false
+StartupNotify=false

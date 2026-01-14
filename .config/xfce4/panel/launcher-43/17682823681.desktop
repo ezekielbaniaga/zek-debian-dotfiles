@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GIMP 3.0
+Comment=
+Exec=/opt/gimp/GIMP-3.0.6-x86_64.AppImage
+Icon=gimp
+Path=
+Terminal=false
+StartupNotify=false
