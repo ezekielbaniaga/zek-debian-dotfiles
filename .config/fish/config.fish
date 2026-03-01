@@ -55,6 +55,8 @@ alias sunvim='sudo -E -s /opt/nvim/nvim'
 # - nginx
 # - IntelliJ
 # - Maven 3.5.0
+# - cursor ai
+# - spring-boot-cli (For creating spring projects)
 #
 fish_add_path "/opt/nvim"
 fish_add_path "/opt/zig/zig-linux-x86_64-0.13.0"
@@ -63,6 +65,7 @@ fish_add_path "/opt/nginx/sbin"
 fish_add_path "/opt/intellij/idea-IC-241.18034.62/bin"
 fish_add_path "/opt/maven/3.5.0/apache-maven-3.5.0/bin"
 fish_add_path "/opt/cursorai/"
+fish_add_path "/opt/spring-boot-cli/spring-4.0.3/bin"
 
 #
 # JAVA_HOME
@@ -70,8 +73,8 @@ fish_add_path "/opt/cursorai/"
 # - Oracle JDK 8
 # - Open JDK 24
 # 
-# set -gx JAVA_HOME /opt/java/jdk-24.0.1
-set -gx JAVA_HOME /opt/java/oracle-jdk8/jdk1.8.0_202
+set -gx JAVA_HOME /opt/java/jdk-24.0.1
+# set -gx JAVA_HOME /opt/java/oracle-jdk8/jdk1.8.0_202
 set -gx PATH $JAVA_HOME/bin $PATH 
 
 
