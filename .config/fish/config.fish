@@ -59,7 +59,8 @@ alias sunvim='sudo -E -s /opt/nvim/nvim'
 # - spring-boot-cli (For creating spring projects)
 #
 fish_add_path "/opt/nvim"
-fish_add_path "/opt/zig/zig-linux-x86_64-0.13.0"
+#fish_add_path "/opt/zig/zig-linux-x86_64-0.13.0"
+fish_add_path "/opt/zig/zig-x86_64-linux-0.15.2"
 fish_add_path "/opt/nodejs/node-v20.15.1-linux-x64/bin"
 fish_add_path "/opt/nginx/sbin"
 fish_add_path "/opt/intellij/idea-IC-241.18034.62/bin"

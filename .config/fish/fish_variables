@@ -1,0 +1,32 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:3400
+SETUVAR fish_color_autosuggestion:brblack
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_command:blue
+SETUVAR fish_color_comment:red
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:green
+SETUVAR fish_color_error:brred
+SETUVAR fish_color_escape:brcyan
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:brcyan
+SETUVAR fish_color_param:cyan
+SETUVAR fish_color_quote:yellow
+SETUVAR fish_color_redirection:cyan\x1e\x2d\x2dbold
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:normal
+SETUVAR fish_pager_color_description:yellow\x1e\x2di
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/opt/zig/zig\x2dx86_64\x2dlinux\x2d0\x2e15\x2e2\x1e/opt/spring\x2dboot\x2dcli/spring\x2d4\x2e0\x2e3/bin\x1e/opt/java/jdk\x2d24\x2e0\x2e1/bin\x1e/opt/cursorai\x1e/opt/maven/3\x2e5\x2e0/apache\x2dmaven\x2d3\x2e5\x2e0/bin\x1e/opt/java/oracle\x2djdk8/jdk1\x2e8\x2e0_202/bin\x1e/opt/intellij/idea\x2dIC\x2d241\x2e18034\x2e62/bin\x1e/opt/nginx/sbin\x1e/opt/nodejs/node\x2dv20\x2e15\x2e1\x2dlinux\x2dx64/bin\x1e/home/zek/\x2envm\x1e/opt/zig/zig\x2dlinux\x2dx86_64\x2d0\x2e13\x2e0\x1e/opt/nvim

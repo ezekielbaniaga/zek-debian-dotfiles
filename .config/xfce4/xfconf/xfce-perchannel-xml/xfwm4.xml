@@ -19,7 +19,7 @@
     <property name="cycle_preview" type="bool" value="true"/>
     <property name="cycle_tabwin_mode" type="int" value="0"/>
     <property name="cycle_workspaces" type="bool" value="false"/>
-    <property name="double_click_action" type="string" value="maximize"/>
+    <property name="double_click_action" type="string" value="shade"/>
     <property name="double_click_distance" type="int" value="5"/>
     <property name="double_click_time" type="int" value="250"/>
     <property name="easy_click" type="string" value="Alt"/>
@@ -92,6 +92,7 @@
       <value type="string" value=" 8 "/>
       <value type="string" value=" 9 "/>
       <value type="string" value=" 10 "/>
+      <value type="string" value="Workspace 11"/>
     </property>
     <property name="margin_top" type="int" value="4"/>
     <property name="margin_bottom" type="int" value="4"/>

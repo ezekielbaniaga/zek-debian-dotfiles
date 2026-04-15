@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Clockify
+Comment=Clockify by Cake.com
+Exec=/opt/clockify/Clockify_Setup.AppImage
+Icon=org.xfce.panel.clock
+Path=
+Terminal=false
+StartupNotify=false

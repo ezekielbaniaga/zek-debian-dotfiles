@@ -10,7 +10,7 @@
     <value type="int" value="5"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=2;x=1683;y=14"/>
+      <property name="position" type="string" value="p=2;x=1673;y=15"/>
       <property name="size" type="uint" value="28"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="47"/>
@@ -41,14 +41,16 @@
       <property name="icon-size" type="uint" value="0"/>
     </property>
     <property name="panel-3" type="empty">
-      <property name="position" type="string" value="p=11;x=676;y=16"/>
+      <property name="position" type="string" value="p=11;x=777;y=14"/>
       <property name="size" type="uint" value="28"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="length" type="double" value="1"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="3"/>
+        <value type="int" value="50"/>
         <value type="int" value="38"/>
+        <value type="int" value="48"/>
         <value type="int" value="32"/>
         <value type="int" value="16"/>
         <value type="int" value="43"/>
@@ -61,7 +63,7 @@
         <value type="int" value="11"/>
         <value type="int" value="1"/>
         <value type="int" value="14"/>
-        <value type="int" value="9"/>
+        <value type="int" value="51"/>
         <value type="int" value="13"/>
         <value type="int" value="34"/>
         <value type="int" value="24"/>
@@ -69,6 +71,7 @@
         <value type="int" value="29"/>
         <value type="int" value="12"/>
         <value type="int" value="35"/>
+        <value type="int" value="49"/>
         <value type="int" value="2"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
@@ -79,7 +82,7 @@
         <value type="double" value="1"/>
       </property>
       <property name="icon-size" type="uint" value="16"/>
-      <property name="position-locked" type="bool" value="true"/>
+      <property name="position-locked" type="bool" value="false"/>
     </property>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=958;y=17"/>
@@ -103,7 +106,7 @@
       <property name="nrows" type="uint" value="1"/>
     </property>
     <property name="panel-4" type="empty">
-      <property name="position" type="string" value="p=11;x=2738;y=14"/>
+      <property name="position" type="string" value="p=4;x=3270;y=1426"/>
       <property name="size" type="uint" value="28"/>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
@@ -126,8 +129,8 @@
       <property name="length-adjust" type="bool" value="true"/>
     </property>
     <property name="panel-5" type="empty">
-      <property name="position" type="string" value="p=11;x=1767;y=14"/>
-      <property name="size" type="uint" value="28"/>
+      <property name="position" type="string" value="p=10;x=965;y=1064"/>
+      <property name="size" type="uint" value="48"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="40"/>
       </property>
@@ -300,11 +303,6 @@
         <value type="string" value="17565389841.desktop"/>
       </property>
     </property>
-    <property name="plugin-9" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="17580977882.desktop"/>
-      </property>
-    </property>
     <property name="plugin-14" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17587453701.desktop"/>
@@ -322,6 +320,14 @@
     </property>
     <property name="plugin-41" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (75%)"/>
+        <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (73%)"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="wi-fi network connection “pldt_home_baniaga” active: pldt_home_baniaga (58%)"/>
+        <value type="string" value="wi-fi network connection “pldt_home_baniaga” active: pldt_home_baniaga (78%)"/>
+        <value type="string" value="wi-fi network connection “pldt_home_baniaga” active: pldt_home_baniaga (80%)"/>
+        <value type="string" value="wi-fi network connection “pldt_home_baniaga” active: pldt_home_baniaga (62%)"/>
+        <value type="string" value="wi-fi network connection “pldt_home_baniaga” active: pldt_home_baniaga (76%)"/>
         <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (61%)"/>
         <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (63%)"/>
         <value type="string" value="wi-fi network connection “baniaga_converge_5ghz_k2qa” active: baniaga_converge_5ghz_k2qa (62%)"/>
@@ -348,7 +354,7 @@
     </property>
     <property name="plugin-44" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance10514;chromium.instance105928;chromium.instance10929;chromium.instance11556;chromium.instance139215;chromium.instance16098;chromium.instance3082;chromium.instance3398;chromium.instance341151;chromium.instance3459;chromium.instance3799;chromium.instance4623;chromium.instance6125;chromium.instance6566;dragonplayer;firefox.instance_1_103;firefox.instance_1_159;firefox.instance_1_165;firefox.instance_1_298;firefox.instance_1_36;firefox.instance_1_37;firefox.instance_1_38;firefox.instance_1_39;firefox.instance_1_577;firefox.instance_1_964;kdeconnect.mpris_060529bbe5cd420abbf776d9f1faa907;kdeconnect.mpris_0b0dd4fa57c242ec9d4ba3d4e943e91f;kdeconnect.mpris_0fd5a1ecba8f465c84f27dbfb92d8114;kdeconnect.mpris_17b56ba400484e028242f9ca45a15df1;kdeconnect.mpris_1ffdea4823364cc7aa2c02ede13e514e;kdeconnect.mpris_250d33f3b12940fe9c2477f77bf145f7;kdeconnect.mpris_2f6557f484b74f2a894a568d66efa23a;kdeconnect.mpris_364521dc06464784810167fe8d54f222;kdeconnect.mpris_4247316a6d4d4033bc7e25c7ea639f3e;kdeconnect.mpris_4cd80e4abed04aea955befb3a347e7ba;kdeconnect.mpris_4cf0f466688745cf962f0bcac9fb91bc;kdeconnect.mpris_51495b1bdbe0475cb337b49ba50dd5f2;kdeconnect.mpris_59347396ee8144638e95b34915644f91;kdeconnect.mpris_5d1c2cb3373947309f798fa44b70acfd;kdeconnect.mpris_78371679ea034398868314f429192a22;kdeconnect.mpris_79d88edcda604d4a87339ea3c775bac5;kdeconnect.mpris_83dfc75b64b34e4ebafd42ec785e3397;kdeconnect.mpris_9179c6d4962f4d6f839aa0a430d730ef;kdeconnect.mpris_91da1ddab52645daa9e565ffdb9a61ec;kdeconnect.mpris_ad7db7f4bdc54bf4bc71b25c3aa050bd;kdeconnect.mpris_d9c5b31398c143499efea533d5ee279c;kdeconnect.mpris_e8a031e9708d4c75ba4d995331b0079d;kdeconnect.mpris_f101e118913e4350847eb31cf3fbf881;kdeconnect.mpris_f1f4b46f3e6b4ac98a6d665f1fe154b3;kdeconnect.mpris_f8c5f04caf9243ce9e042f680d35d2cb;kdeconnect.mpris_f926600811cb48fdbf6ab9ec3036ab1c;kdeconnect.mpris_fa4c2364d6da45c8bc53cd14a2ee2223;kdeconnect.mpris_fe8d92d0dc584ca194f859d01025a272;vlc"/>
+      <property name="mpris-players" type="string" value="brave.instance7984;chromium.instance10514;chromium.instance105928;chromium.instance10929;chromium.instance11556;chromium.instance139215;chromium.instance16098;chromium.instance16819;chromium.instance2755180;chromium.instance28414;chromium.instance304993;chromium.instance3082;chromium.instance3398;chromium.instance341151;chromium.instance3459;chromium.instance3799;chromium.instance4623;chromium.instance6125;chromium.instance6267;chromium.instance6566;dragonplayer;firefox.instance_1_103;firefox.instance_1_159;firefox.instance_1_165;firefox.instance_1_1673;firefox.instance_1_236;firefox.instance_1_298;firefox.instance_1_34;firefox.instance_1_36;firefox.instance_1_37;firefox.instance_1_38;firefox.instance_1_39;firefox.instance_1_40;firefox.instance_1_41;firefox.instance_1_577;firefox.instance_1_964;kdeconnect.mpris_060529bbe5cd420abbf776d9f1faa907;kdeconnect.mpris_0666fa5810f14a27ab8cdba7ba91cf7b;kdeconnect.mpris_09cae97528e947ae974e3fab1e36674f;kdeconnect.mpris_0b0dd4fa57c242ec9d4ba3d4e943e91f;kdeconnect.mpris_0fd5a1ecba8f465c84f27dbfb92d8114;kdeconnect.mpris_14240ee73cef405e984d2d0855a51d86;kdeconnect.mpris_17b56ba400484e028242f9ca45a15df1;kdeconnect.mpris_1ffdea4823364cc7aa2c02ede13e514e;kdeconnect.mpris_250d33f3b12940fe9c2477f77bf145f7;kdeconnect.mpris_2f6557f484b74f2a894a568d66efa23a;kdeconnect.mpris_364521dc06464784810167fe8d54f222;kdeconnect.mpris_4247316a6d4d4033bc7e25c7ea639f3e;kdeconnect.mpris_4cd80e4abed04aea955befb3a347e7ba;kdeconnect.mpris_4cf0f466688745cf962f0bcac9fb91bc;kdeconnect.mpris_51495b1bdbe0475cb337b49ba50dd5f2;kdeconnect.mpris_59347396ee8144638e95b34915644f91;kdeconnect.mpris_5d1c2cb3373947309f798fa44b70acfd;kdeconnect.mpris_70bf8912ea07410f9d81edf7e509bf2b;kdeconnect.mpris_78371679ea034398868314f429192a22;kdeconnect.mpris_79d88edcda604d4a87339ea3c775bac5;kdeconnect.mpris_83dfc75b64b34e4ebafd42ec785e3397;kdeconnect.mpris_9179c6d4962f4d6f839aa0a430d730ef;kdeconnect.mpris_91da1ddab52645daa9e565ffdb9a61ec;kdeconnect.mpris_a4e3251ba9444140b2b3bbbac33d2987;kdeconnect.mpris_ad7db7f4bdc54bf4bc71b25c3aa050bd;kdeconnect.mpris_c91d0929c58b4fa496c4505a7a320ab2;kdeconnect.mpris_d9c5b31398c143499efea533d5ee279c;kdeconnect.mpris_db527ba7332d46c4b61622b8254231b6;kdeconnect.mpris_e8a031e9708d4c75ba4d995331b0079d;kdeconnect.mpris_ec5495bf8b1b47e8a956bd56be094706;kdeconnect.mpris_f101e118913e4350847eb31cf3fbf881;kdeconnect.mpris_f1f4b46f3e6b4ac98a6d665f1fe154b3;kdeconnect.mpris_f697930f59144cdaaf9f9b9662b79d05;kdeconnect.mpris_f8c5f04caf9243ce9e042f680d35d2cb;kdeconnect.mpris_f926600811cb48fdbf6ab9ec3036ab1c;kdeconnect.mpris_fa4c2364d6da45c8bc53cd14a2ee2223;kdeconnect.mpris_fe8d92d0dc584ca194f859d01025a272;kdeconnect.mpris_fee494a6fd7e4da7a351a4727e21c070;vlc"/>
     </property>
     <property name="plugin-45" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -362,6 +368,26 @@
     <property name="plugin-43" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17682823681.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-48" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17708928841.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-49" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17733649711.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-50" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17736714271.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-51" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17760915141.desktop"/>
       </property>
     </property>
   </property>

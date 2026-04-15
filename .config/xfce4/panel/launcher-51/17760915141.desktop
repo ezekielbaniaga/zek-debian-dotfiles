@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Bruno
+Comment=Bruno Dev Friendly API Tester
+Exec=/opt/bruno/bruno_3.2.2_x86_64_linux.AppImage
+Icon=logo-bruno
+Path=
+Terminal=false
+StartupNotify=false

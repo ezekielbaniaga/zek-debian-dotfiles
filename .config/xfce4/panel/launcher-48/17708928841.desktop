@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NetBeans
+Comment=The Best Java IDE
+Exec=/opt/netbeans/netbeans/bin/netbeans --jdkhome /opt/java/jdk-24.0.1/
+Icon=apache-netbeans
+Path=
+Terminal=false
+StartupNotify=false
