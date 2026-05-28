@@ -73,8 +73,10 @@ fish_add_path "/opt/spring-boot-cli/spring-4.0.3/bin"
 #
 # - Oracle JDK 8
 # - Open JDK 24
+# - Open JDK 25 (Eclipse Temurin)
 # 
-set -gx JAVA_HOME /opt/java/jdk-24.0.1
+set -gx JAVA_HOME /opt/java/jdk-25.0.3+9/
+#set -gx JAVA_HOME /opt/java/jdk-24.0.1
 # set -gx JAVA_HOME /opt/java/oracle-jdk8/jdk1.8.0_202
 set -gx PATH $JAVA_HOME/bin $PATH 
 
